@@ -1,9 +1,9 @@
 // Write your code here.
 import './index.css'
 
-const LOSE_IMAGE = 'https://assets.ccbp.in/frontend/react-js/won-game-img.png'
+const LOSE_IMAGE = 'https://assets.ccbp.in/frontend/react-js/lose-game-img.png'
 
-const WON_IMAGE = 'https://assets.ccbp.in/frontend/react-js/lose-game-img.png'
+const WON_IMAGE =  'https://assets.ccbp.in/frontend/react-js/won-game-img.png'
 
 const WinOrLoseCard = props => {
   const {isWon, onClickPlayAgain, score} = props
